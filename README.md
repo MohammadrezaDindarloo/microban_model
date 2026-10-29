@@ -1,7 +1,8 @@
 # microban_model
 
 The model of Microban v2 (the Radxa version), shared by [microban](https://github.com/Rhoban/microban) (the robot's
-code and its simulation) and the robot's simulators. MuJoCo XML and URDF, in two versions of the same robot that differ
+code), [microban_sim](https://github.com/Rhoban/microban_sim) (Rhoban's robot simulator, which `make sim` runs) and the
+simulators built on it (the hackathon's [climbing simulator](https://github.com/rock-climbing-robots/simulator)). MuJoCo XML and URDF, in two versions of the same robot that differ
 only by the forearms and the feet:
 
 | | MuJoCo | URDF (kinematics and inertias) | mass |
